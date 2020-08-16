@@ -10,7 +10,6 @@ const IndexPage = () => (
         <Link to="/video">Watch the video</Link>
       </div>
     </div>
-    
   </div>
 )
 
