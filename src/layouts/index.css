@@ -17,6 +17,7 @@ a {
   background: url('../images/wallpaper3.jpg');
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .HeroGroup {
@@ -41,7 +42,6 @@ a {
   line-height: 1.5;
   opacity: 0;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  
 }
 
 .Hero a {
@@ -60,7 +60,6 @@ a {
 .Hero a:hover {
   background: white;
   color: black;
-  animation: 
 }
 
 @media (max-width: 640px) {
@@ -86,4 +85,10 @@ a {
     opacity: 1;
     transform: translateY(0px);
   }
+}
+
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
